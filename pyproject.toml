@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-play"
+version = "0.1.0"
+description = ""
+authors = ["haru <godjaewook@naver.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.8"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+workbook = "^1.1"
+openpyxl = "^3.1.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
